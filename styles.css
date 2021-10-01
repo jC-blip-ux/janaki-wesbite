@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    text-rendering: optimizeLegibility;
+}
+
+.bgBody{
+    background-image:linear-gradient(rgba(203, 168, 204, 0.5),rgba(0,0,0,.9)),url(pic7.svg);
+    background-size: cover;
+    background-position: center ;
+    position: relative;
+}
+
+:root {
+    /* #44b6f8 */
+    --primary-color: #d46bdb;
+    --off-white: #f3f4f6;
+    --dark-gray: #aeb9cc;
+}
+
+/* lists */
+
+.list-nonbullet {
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 1rem;
+}
+
+/* container */
+
+.container {
+    padding: 0rem 1rem;
+    
+}
+
+.container-centre {
+    max-width: 700px;
+    margin: auto;
+    
+}
+
+
+/*links*/
+
+.link {
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 0.5rem 1rem;
+}
+
+.link-primary {
+    background-color: var(--primary-color);
+    color: rgb(237, 220, 241);
+    display: block;
+    max-width: 140px;
+    border-radius: 0.5rem;
+    margin: 1rem 1rem 1rem 0;
+    text-align: center;
+}
+
+.link-secondary {
+    color: var(--primary-color);
+    display: block;
+    max-width: 140px;
+    border-radius: 0.5rem;
+    margin: 1rem 1rem 1rem 0;
+    border: 1px solid var(--primary-color);
+    text-align: center;
+}
+
+.link-primary:hover,
+.link-primary:active {
+    background-color: rgb(255, 0, 255) ;
+}
+
+.link-secondary:hover,
+.link-secondary:active {
+    background-color: rgb(233, 110, 216);
+    color: white;
+}
+
+/* navbar */
+
+.navigation {
+    background-color: var(--primary-color);
+    color: black;
+    padding: 1rem;
+    border-bottom-left-radius: 3rem;
+
+}
+
+.nav-brand {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.nav-span {
+    font-size: 2.5rem;
+}
+
+.nav-pills {
+    text-align: right;
+    font-size: 1.5rem;
+}
+
+.navigation .link {
+    color:black;
+    text-align: left;
+}
+
+.link-active {
+    font-weight: bold;
+}
+
+/*header*/
+
+.hero {
+    padding: 2rem;
+
+}
+
+.hero-img {
+    max-width: 80%;
+    max-width: 350px;
+    display: block;
+    margin: auto;
+    padding-top: 5rem;
+}
+
+.hero-heading {
+    color: #000000;
+    margin-top: 3rem;
+    padding-top: 4rem;
+    text-align: center;
+}
+
+.heading-inverted {
+    color: var(--primary-color);
+}
+
+/* spaces */
+
+.margin-md {
+    margin: 2rem; 
+}
+
+.button {
+    margin-bottom: 1.5rem;
+}
+
+/* sections */
+
+section {
+    padding: 2rem;
+}
+
+.section h1 {
+    text-align: center;
+    padding: 2rem;
+}
+
+.ow {
+    background-color: var(--off-white);
+}
+
+.tech-deets {
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+/* footers */
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem 0rem;
+    text-align: center;
+    color: rgb(2, 2, 2);
+    /* border-top-right-radius: 1rem; */
+
+}
+
+.footer-header {
+    font-size: large;
+    font-weight: bold;
+}
+
+.footer .link {
+    color: white;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
+
+.bout-me {
+    padding: 2rem;
+    margin: auto;
+    max-width: auto;
+}
+
+.fa-github:link,
+.fa-github:hover {
+    color: #acb8c4;
+}
+
+.fa-twitter:link,
+.fa-twitter:hover {
+    color: #1da1f2
+}
+
+.fa-linkedin-in:link,
+.fa-linkedin-in:hover {
+    color: #0a66c2;
+}
+
+.fa-instagram:link,
+.fa-instagram:hover {
+    color: #c32aa3;
+}
+
+.fa-snapchat-ghost:link,
+.fa-snapchat-ghost:hover {
+    color: #fffc00;
+}
+
+.footer-icons{
+    transition:color 0.2s;
+    font-size: 1.5rem;
+    padding-top: 1rem;
+}
+
+
+.snap-code {
+    height: 200px;
+    width: 200px;
+    align-self: center;
+    padding: 3rem;
+}
+
+.site-header {
+    display: block;
+    text-align: center;
+    padding-top: 10rem;
+}
+
+.site-header-content {
+    margin: 10px;
+}
+
+.body-color {
+    background-color: #fffc00;
+}
+
+.para {
+    padding-bottom: 1rem;
+}
+
+
+
+.white-text{
+    color: ivory;
+}
+
+.fab-icons{
+    padding-right: 1rem;
+    color: var(--primary-color);
+}
+
+
+.fa-edge{
+    color:#3277BC ;
+}
+
+.fa-ticket-alt{
+    color: rgb(255, 183, 0);
+}
+
+.fa-language {
+    color: yellow;
+}
+
+.fa-apple-alt{
+    color: #a70819;
+}
+
+.fa-digital-tachograph{
+    color: #6920b0
+}
+
+.fa-question-circle{
+    color: green;
+}
