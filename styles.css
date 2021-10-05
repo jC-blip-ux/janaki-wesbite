@@ -7,7 +7,7 @@ body {
 }
 
 .bgBody{
-    background-image:linear-gradient(rgba(203, 168, 204, 0.5),rgba(0,0,0,.9)),url(pic7.svg);
+    background-image:linear-gradient(rgba(222, 209, 223, 0.5),rgba(0,0,0,.9)),url(pic7.svg);
     background-size: cover;
     background-position: center ;
     position: relative;
